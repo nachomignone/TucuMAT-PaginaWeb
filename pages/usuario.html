@@ -26,12 +26,12 @@
                 </div>
                 <div class="container-user">
                     <a href="usuario.html">
-                        <p>Usuario</p>
+                        <i class="fa-solid fa-user" style="color: #e3e3e3;"></i>
                     </a>
                     
                     <div class="container-contacto">
                         <a href="contacto.html">
-                            <p>Contactanos</p>
+                            <i class="fa-solid fa-envelopes-bulk" style="color: #e3e3e3;"></i>
                         </a>
                     </div>
                 </div>
@@ -54,6 +54,72 @@
     </header>
 
     <main>
+        <section class="datos">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nombre completo</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Lionel" required>
+                  <div class="valid-feedback">
+                    es válido.
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Messi" required>
+                  <div class="valid-feedback">
+                    es válido.
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Nombre de Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Por favor, elija un Nombre de Usuario.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese una ciudad válida.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Localidad</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Ingrese su Localidad</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Por favor ingrese una localidad válida.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Codigo Postal</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese un codigo postal válido.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Estoy de acuerdo con los Términos y Condiciones
+                    </label>
+                    <div class="invalid-feedback">
+                      Debes estar de acuerdo antes de Enviar.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+        </section>
         
 
     
