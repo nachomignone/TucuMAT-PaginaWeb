@@ -941,6 +941,14 @@ footer{
     flex-direction: column;
 }
 
+.contactanos{
+    height: auto;
+}
+
+.datos{
+    height:100vh;
+}
+
 }
 
 
