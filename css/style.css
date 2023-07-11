@@ -145,7 +145,7 @@ nav.navbar.container{
      rgba(0,0,0,0.5),
      rgba(0,0,0,0.5)
      ),
-      url("medios/hero.jpg") ;
+      url("../medios/hero.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -254,7 +254,7 @@ nav.navbar.container{
 }
 
 .category-camionero{
-    background-image: linear-gradient(#00000080, #00000080), url("medios/matecamionero.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../medios/matecamionero.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -262,14 +262,14 @@ nav.navbar.container{
 }
 
 .category-termopc{
-    background-image: linear-gradient(#00000080, #00000080), url("medios/termos.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../medios/termos.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .category-bombillapl{
-    background-image: linear-gradient(#00000080, #00000080), url("medios/Pico-de-loro-acero-1.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../medios/Pico-de-loro-acero-1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -485,7 +485,7 @@ footer{
     width: 80px;
     border-radius: 50px;
     border: 1px solid #f2f2f2;
-    background-image: url(medios/icons8-facebook-24.png);
+    background-image: url(../medios/icons8-facebook-24.png);
     background-position: center;
     background-size: 45%;
     background-repeat: no-repeat;
@@ -498,15 +498,15 @@ footer{
 }
 
 .social-icon:nth-of-type(2){
-    background-image: url(medios/icons8-instagram-24.png);
+    background-image: url(../medios/icons8-instagram-24.png);
 }
 
 .social-icon:nth-of-type(3){
-    background-image: url(medios/icons8-linkedin-24.png)
+    background-image: url(../medios/icons8-linkedin-24.png)
 }
 
 .social-icon:nth-of-type(4){
-    background-image: url(medios/icons8-tik-tok-25.png)
+    background-image: url(../medios/icons8-tik-tok-25.png)
 }
 
 
