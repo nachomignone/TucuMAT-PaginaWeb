@@ -1,0 +1,46 @@
+/*pagina tienda*/
+
+.container-tienda {
+    background-color: #dadfdc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 3rem;
+  
+    .product-tienda {
+      background-color: white;
+      padding: 3rem 4rem;
+      border-radius: .5rem;
+      cursor: pointer;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  
+      .img-tienda {
+        position: relative;
+  
+        img {
+          width: 100%;
+        }
+      }
+  
+      .content-tienda-product {
+        display: grid;
+        justify-items: center;
+        grid-template-rows: repeat(2, min-content);
+        row-gap: 1rem;
+  
+        h3 {
+          text-align: center;
+          grid-column: 1 / 3;
+          grid-row: 3 / 4;
+          font-weight: 400;
+          font-size: 1.4rem;
+          margin-bottom: 1rem;
+          cursor: pointer;
+  
+          &:hover {
+            color: #1e5945;
+          }
+        }
+      }
+    }
+  }
